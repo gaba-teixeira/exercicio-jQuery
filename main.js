@@ -10,4 +10,9 @@ $(document).ready(function () {
 });
 $(".task-list").on("click", "li", function () {
   $(this).toggleClass("task-feita");
+
+  $("#botao-limpar").click(function () {
+    $("li").removeClass("task-item");
+    $("li").html(" ");
+  });
 });

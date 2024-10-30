@@ -77,5 +77,18 @@ body {
   padding: 10px;
   border-bottom: 1px solid #eee;
   text-align: left;
-  color: #333;
+  color: #292828;
+  list-style: none;
+  background-color: rgb(218, 113, 113);
+}
+
+.task-feita {
+  text-decoration: line-through;
+  list-style: none;
+  background-color: rgb(87, 224, 133);
+}
+
+li:hover {
+  cursor: pointer;
+  text-decoration: line-through;
 }

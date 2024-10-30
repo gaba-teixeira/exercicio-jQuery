@@ -16,21 +16,24 @@
     <div class="container">
       <div class="header">
         <img src="./9124141 (1).png" alt="icon de lista de tarefas" />
-        <h2>Lista de Tarefas</h2>
+        <h2>LISTA DE TAREFA</h2>
       </div>
 
       <div class="task-input">
         <form>
-          <input type="text" placeholder="Digite uma nova tarefa" required />
-          <button type="submit">Adicionar Tarefa</button>
+          <input
+            id="nova-tarefa"
+            type="text"
+            placeholder="Digite uma nova tarefa"
+            required
+          />
+          <button type="submit">+ TAREFA</button>
         </form>
       </div>
 
-      <ul class="task-list">
-        <li class="task-item">Tarefa 1</li>
-        <li class="task-item">Tarefa 2</li>
-        <li class="task-item">Tarefa 3</li>
-      </ul>
+      <ul class="task-list"></ul>
     </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
   </body>
 </html>
